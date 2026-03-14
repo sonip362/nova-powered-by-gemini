@@ -6,10 +6,12 @@ Nova AI is a low latency,multimodal AI ,powered by Gemini 2.0/2.5/3.0/2.5-flash-
 
 🚀 Key Features
 Text answers for speed: Uses the Gemini 2.5/3.0 flash to power the beginning of every ideas that shine.
-Toggles between Flash and Ultimate: Flash powered by 2.0 flash focuses on speed over reasoning and ultimate powered by 3.0 flash provides reasoning and thinking over speed.![alt text](uploads/image1.png)
+Toggles between Flash and Ultimate: Flash powered by 2.0 flash focuses on speed over reasoning and ultimate powered by 3.0 flash provides reasoning and thinking over speed.
+![alt text](uploads/image1.png)
 User based memory:A unique "Remember" keyword system that updates the model's core identity and user preferences in real-time.
 ![alt text](uploads/image3.png)
-![alt text](uploads/image4.png)![alt text](uploads/image2.png)
+![alt text](uploads/image4.png)
+![alt text](uploads/image2.png)
 Visual Intelligence: Ability to process images and screenshots to drive context-aware conversations
 .![alt text](image.png)
 Interactive tutorials:
