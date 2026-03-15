@@ -1944,6 +1944,7 @@ async function toggleCameraBlocked() {
         });
         newStream.getVideoTracks().forEach(t => liveStream.addTrack(t));
         liveVideo.srcObject = liveStream;
+        updateLiveCameraUI();
         if (isLiveSessionReady) startLiveFrameCapture();
     } catch (err) {
         showError('Camera error: ' + err.message);
@@ -2060,6 +2061,7 @@ async function switchCamera() {
         });
         newStream.getVideoTracks().forEach(t => liveStream.addTrack(t));
         liveVideo.srcObject = liveStream;
+        updateLiveCameraUI();
     } catch (err) {
         console.warn('Camera switch failed, trying ideal:', err.message);
         // Fallback: some devices don't support 'exact'
@@ -2070,6 +2072,7 @@ async function switchCamera() {
             });
             fallback.getVideoTracks().forEach(t => liveStream.addTrack(t));
             liveVideo.srcObject = liveStream;
+            updateLiveCameraUI();
         } catch (e2) {
             showError('Camera switch failed: ' + e2.message);
         }

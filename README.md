@@ -6,17 +6,11 @@ Nova AI is a low latency,multimodal AI ,powered by Gemini 2.0/2.5/3.0/2.5-flash-
 
 🚀 Key Features
 Text answers for speed: Uses the Gemini 2.5/3.0 flash to power the beginning of every ideas that shine.
-Toggles between Flash and Ultimate: Flash powered by 2.0 flash focuses on speed over reasoning and ultimate powered by 3.0 flash provides reasoning and thinking over speed.
-![alt text](uploads/image1.png)
-User based memory:A unique "Remember" keyword system that updates the model's core identity and user preferences in real-time.
-![alt text](uploads/image3.png)
-![alt text](uploads/image4.png)
-![alt text](uploads/image2.png)
-Visual Intelligence: Ability to process images and screenshots to drive context-aware conversations
-.![alt text](image.png)
-Interactive tutorials:
-![alt text](image-1.png)![alt text](image-2.png) 
-An interactive tutorial for people who are new to AI,
+Toggles between Flash and Ultimate: Flash powered by 2.0 flash focuses on speed over reasoning and ultimate powered by 3.0 flash provides reasoning and thinking over speed.![alt text](uploads/image1.png)
+User based memory:A unique "Remember" keyword system that updates the model's core identity and user preferences in real-time.![alt text](uploads/image3.png)
+![alt text](uploads/image4.png)![alt text](uploads/image2.png)
+Visual Intelligence: Ability to process images and screenshots to drive context-aware conversations.![alt text](image.png)
+Interactive tutorials:![alt text](image-1.png)![alt text](image-2.png) An interactive tutorial for people who are new to AI,
 Multimodal integration:An interactive way of communication where it speaks,sees,hear and understands.
 Tutor mode:A innovative mode for students to simplify their studies.Uses Katex for better understanding of math.![alt text](image-3.png)
 
@@ -44,7 +38,7 @@ Nova is built as a Cloud-Native container (see Dockerfile). While the demo envir
 Clone the repository:
 
 Bash
-git clone https://github.com/sonip362/nova.git
+git clone https://github.com/sonip362/nova-powered-by-gemini.git
 cd nova
 Install dependencies:
 
